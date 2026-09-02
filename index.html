@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <title>Este es nuestro parcial</title> 
+</head> 
+<body> 
+    <!-- Tu botón --> 
+    <button onclick="mostrarNombres()">nombres</button> 
+
+    <!-- Aquí van a aparecer los nombres (inicialmente está vacío/oculto) --> 
+    <div id="contenedor-nombres"></div> 
+
+    <script> 
+        function mostrarNombres() { 
+            // Aquí escribes los nombres de los integrantes de tu grupo 
+            document.getElementById("contenedor-nombres").innerHTML = ` 
+                <h3>Integrantes del grupo:</h3> 
+                <ul> 
+                    <li>daniel blandon </li> 
+                    <li>andres juan</li> 
+                </ul> 
+            `; 
+        } 
+    </script> 
+</body> 
+</html>
